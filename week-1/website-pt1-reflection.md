@@ -9,8 +9,8 @@ http://seanmnorton.github.io/
 
  * I think that Open Source is great, it is the fastest way to move technology forward. It's exciting that such a large group of people would be willing to work together and share for the better.
 
- *Licenses are extremely important, they let other people know if they can use your code and how.
+ * Licenses are extremely important, they let other people know if they can use your code and how.
 
- *This challenge solidified how to create and clone repos, I feel like I am able to do that efficiently now. I spelled my username wrong the first time around, which was annoying, but I was able to correct the error delete the clone and then add it back with the correct name.
+ * This challenge solidified how to create and clone repos, I feel like I am able to do that efficiently now. I spelled my username wrong the first time around, which was annoying, but I was able to correct the error delete the clone and then add it back with the correct name.
 
 
