@@ -1,5 +1,5 @@
 ## Design Reflection ##
-![Alt text](/week-2/imgs/SiteMap.png "Sean's Site Map")
+![Site Map](/week-2/imgs/SiteMap.png "Sean's Site Map")
 
 **What are the 6 Phases of Web Design?**
 
