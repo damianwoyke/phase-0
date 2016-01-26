@@ -1,5 +1,5 @@
 ## Header ##
-![Alt text](/phase-0/week-2/imgs/SiteMap.png "Sean's Site Map")
+![Alt text](/week-2/imgs/SiteMap.png "Sean's Site Map")
 
 
 ##What is your site's primary goal or purpose? What kind of content will your site feature?
