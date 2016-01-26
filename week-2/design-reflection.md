@@ -2,7 +2,7 @@
 ![Alt text](phase-0/week-2/imgs/SiteMap.png "Sean's Site Map")
 
 
-##What is your site's primary goal or purpose? What kind of content will your site feature?##
+##What is your site's primary goal or purpose? What kind of content will your site feature?
 
 The primary goal of my site is to provide the tech community with information about my work who I am and access to my blog where I post about things I've learned to help teach others.
 
