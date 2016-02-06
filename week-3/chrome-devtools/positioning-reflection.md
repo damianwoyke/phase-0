@@ -17,4 +17,13 @@ As soon as you open up Chrome's DevTools you can look at and edit elements withi
 
 ##What was your impression of this challenge overall? (love, hate, and why?)
   This challenge was slightly difficult, but at the same time really fun and informational, I think it put a lot more of these things into perspective for me.
+
 ![change the colors](imgs/1_change_the_colors.png)
+![2 Column](imgs/2_column.png)
+![3 Row](imgs/3_row.png)
+![4 Make Equidistant](imgs/4_make_equidistant.png)
+![5 Squares](imgs/5_squares.png)
+![6 Footer](imgs/6_footer.png)
+![7 Header](imgs/7_header.png)
+![8 Sidebar](imgs/8_sidebar.png)
+![9 Have fun](imgs/9.png)
