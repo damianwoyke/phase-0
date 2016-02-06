@@ -1,3 +1,20 @@
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  -- it's most important to know the filepath for your stylesheet.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  -- It took quite a bit of time to get the site how it needed to be, The hardest part was probably the list and making them even and split from left to right. We eneded up usinig "float:left/right;" for them both. Then found that we had to "clear:both;" the item below so that it didn't sit ontop of the list.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+  -- to change the text we used color, font-size and font-weight. To get the lists closer we eneded up having to change the width of the right side to something larger.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  -- We added classes to your html. We had no preferance to ids or classes, but decided to keep things consitant. This helped with some of the smaller things and adding proper css to them.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  --I found that they were pretty similar, I think that the original was a little more organized in some ways, keeping things in order and having better tags for other things.
+
+*/
 html{
   color: navy;
   background-color: white;
