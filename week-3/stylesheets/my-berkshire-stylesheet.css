@@ -1,0 +1,71 @@
+html{
+  color: navy;
+  background-color: white;
+}
+
+header{
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid black;
+  }
+h1 span{
+  font-size:1.5em;
+}
+h1{
+  margin: 10px;
+}
+h4{
+  margin: -20px;
+}
+
+a{
+  color: purple;
+}
+
+a:visited{
+  color: red;
+}
+
+div {
+  display: inline-block;
+  width: 30em;
+  margin: 0px;
+  padding: 1em;
+
+}
+
+li{
+  padding: 0px 0px 25px 0px;
+}
+
+li span {
+  font-size: .5em;
+  list-style: none;
+  display: block;
+}
+
+.right{
+  align: right;
+}
+
+.left{
+  align: left;
+}
+
+img{
+  display:block;
+  align: center;
+  margin: auto;
+}
+
+.quote{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: .75em;
+}
+
+footer{
+  border-top: 1px solid black;
+  text-align: left;
+}
