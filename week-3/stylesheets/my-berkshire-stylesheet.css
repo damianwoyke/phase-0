@@ -29,8 +29,8 @@ a:visited{
 div {
   display: inline-block;
   width: 30em;
-  margin: 0px;
-  padding: 1em;
+  margin-left: 100px;
+  padding: 0em;
 
 }
 
@@ -45,11 +45,12 @@ li span {
 }
 
 .right{
-  align: right;
+  float: right;
+  width: 700px;
 }
 
 .left{
-  align: left;
+  float: left;
 }
 
 img{
@@ -63,9 +64,23 @@ img{
   border-bottom: 1px solid black;
   text-align: center;
   font-size: .75em;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.comments{
+  font-size: .75em;
 }
 
 footer{
   border-top: 1px solid black;
   text-align: left;
+}
+footer span{
+  font-size: .75em;
+}
+
+.b{
+  font-weight: bold;
 }
