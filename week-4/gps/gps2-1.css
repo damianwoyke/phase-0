@@ -1,0 +1,23 @@
+.column-1 {
+
+  width:400px;
+  display: table-cell;
+  padding: 14px;
+}
+
+.column-2 {
+  width:400px;
+  display: table-cell;
+  padding: 14px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 30px;
+}
+
+article h2 {
+  margin-top: 30px;
+
+}
