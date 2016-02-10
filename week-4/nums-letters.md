@@ -40,6 +40,8 @@ p min_a_decade
 ###How was this challenge? Did you get a good review of some of the basics?
   The challenge was a great refresher, I had to look up a few things, but each as more like a "Ohh Yeah I remember that now!". This was a great way to start the week.
 
+
+#Links:
   [Defining Variables](https://github.com/SeanMNorton/phase-0/blob/master/week-4/defining-variables.rb) |
   [Simple String Methods](https://github.com/SeanMNorton/phase-0/blob/master/week-4/simple-string.rb) |
   [Basic Math](https://github.com/SeanMNorton/phase-0/blob/master/week-4/basic-math.rb)
