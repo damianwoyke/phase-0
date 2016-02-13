@@ -1,7 +1,7 @@
 # Analyze the Errors
 
 # I worked on this challenge [by myself,].
-# I spent [#] hours on this challenge.
+# I spent [.55] hours on this challenge.
 
 # --- error -------------------------------------------------------
 =begin
