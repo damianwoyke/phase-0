@@ -33,5 +33,13 @@ How do you run an RSpec file from the command line?
 What was confusing about this material? What made sense?
   I wasn't confused by much, this was mostly review, since I worked through chris pines book before starting.
 
+Define Method - https://github.com/SeanMNorton/phase-0/blob/master/week-4/define-method/my_solution.rb
+
+Address - https://github.com/SeanMNorton/phase-0/blob/master/week-4/address/my_solution.rb
+
+Math - https://github.com/SeanMNorton/phase-0/blob/master/week-4/math/my_solution.rb
+
+
+
 =end
 
