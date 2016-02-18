@@ -1,8 +1,8 @@
 # Pad an Array
 
-# I worked on this challenge []
+# I worked on this challenge [Wesley El-Amin]
 
-# I spent [] hours on this challenge.
+# I spent [2] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
@@ -86,3 +86,20 @@ end
 
 
 # 4. Reflection
+# Were you successful in breaking the problem down into small steps?
+  #Yes, my pair and I were able to take the challenge break it down into steps fairly quickly.
+
+# Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+  #Taking the pseudocode and translating it into Ruby went pretty smooth. We orignially had some issues with taking the min_size and subtracting the array.size because we wrote it backwards, but that was a pretty quick fix once we read through the code again.
+
+# Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+  #for the destructive version our code ran almost perfect execpt what I mentioned above, though in our non-destructive code, multiplying the added value by the difference didn't work as expected. We found a different solution to the problem but still aren't sure why one worked in one set of code and other didn't.
+
+# When you refactored, did you find any existing methods in Ruby to clean up your code?
+  #We found a .fill method that worked perfectly it took just a second to figure out how to use it but after talking it through we figured you could add the value to place holders after the last in the array and up to the min_size.
+
+# How readable is your solution? Did you and your pair choose descriptive variable names?
+  #We did a good job on readablilty, I think the refactored version is a little easier to read, but that is only because there are less variables to look at.
+
+# What is the difference between destructive and non-destructive methods in your own words?
+  # Destructive methods change the original numbers or strings like in this case the array was actually changed, while in non-destructive the orginial data stays the same while the output is assigned to a different variable.
