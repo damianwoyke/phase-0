@@ -76,3 +76,18 @@ def pretty_list(list)
   end
 end
   pretty_list(seans_list)
+
+
+# What did you learn about pseudocode from working on this challenge?
+ #nothing too new, it's pretty important though.
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+  # Using Hashes was the best for this assignment. We needed to be able to call values by thier keys. In this assignment, the keys were the item added to the list while the value was how many of that item were there. It was important to do it this way because keys are a unique value and values can be anything.
+# What does a method return?
+  #the value from the last line of code in that method.
+
+# What kind of things can you pass into methods as arguments?
+  #any ruby object
+# How can you pass information between methods?
+  #have the information called as an argument in the method that it needs passed to
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+   # passing info between methods was solidified for us, we weren't left with any questions or confusing conepts.
