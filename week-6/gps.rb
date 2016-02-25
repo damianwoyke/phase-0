@@ -23,7 +23,8 @@ def serving_size_calc(item_to_make, num_of_ingredients)
       bake = menu.select{|k,v| v < leftover}
         test1 = bake.keys.flatten
         p test1[0]
-  return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}, you have #{leftover} leftover ingredients. Suggested baking items: #{test1[0]} TODO: MAKE THIS FEATURE"
+  return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make},
+    you have #{leftover} leftover ingredients. Suggested baking items: #{test1[0]} TODO: MAKE THIS FEATURE"
   end
 end
 
