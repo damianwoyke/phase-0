@@ -23,24 +23,29 @@
 
 class CreditCard
 
-    def initialize(number)
-        @number = number
-
-         raise ArgumentError.new("Needs number") if number.to_s.length != 16
-    end
-
-    def check_card
+  def initialize(number)
+      @number = number
+      raise ArgumentError.new("Needs number") if number.to_s.length != 16
+  end
+  def check_card
     @new_array = @number.to_s.split(//)
     @new_array.map!.with_index do |num, index|
-     if index % 2 == 0
-       num.to_i * 2
-     else
+      if index % 2 == 0
+        num.to_i * 2
+      else
         num.to_i
-    end
+      end
+      end
+      @new_array = @new_array.join('').split(//)
+      @new_array.map! do |num|
+         num.to_i
+       end
+      if @new_array.inject {|sum,i| sum+i} % 10 == 0
+         true
+      else
+        false
+      end
   end
-    end
-
-
 end
 
 card = CreditCard.new(4408041234567901)
@@ -48,10 +53,28 @@ p card.check_card
 
 
 # Refactored Solution
-  #def check_card
-    # valid = new.Array
-    # valid << @number.split(//)
-#end
+
+class CreditCard
+  def initialize(number)
+      @number = number
+      raise ArgumentError.new("Needs number") if number.to_s.length != 16
+  end
+
+  def check_card
+    @number = @number.to_s.split(//)
+    @number.map!.with_index do |num, index|
+      index % 2 == 0 ? num.to_i * 2 : num.to_i
+    end
+
+    @number = @number.join('').split(//)
+    @number.map!{|num| num.to_i}
+    @number.inject {|sum,i| sum+i} % 10 == 0 ? true : false
+  end
+end
+
+card = CreditCard.new(4408041234567901)
+p card.check_card
+
 
 
 
