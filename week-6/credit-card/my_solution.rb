@@ -51,20 +51,40 @@ p card.check_card
 class CreditCard
   def initialize(number)
     @number = number
-    raise ArgumentError.new('Needs number') if number.to_s.length != 16
+    raise ArgumentError.new("Needs 16 digit number") if number.to_s.length != 16
   end
 
   def check_card
+    double_every_other
+    split_greater_than_ten
+    sum_numbers
+    check_if_mod_ten
+  end
+
+private
+  def double_every_other
     @number = @number.to_s.split(//)
     @number.map!.with_index do |num, index|
-      index.even? ? num.to_i * 2 : num.to_i
+      index % 2 == 0 ? num.to_i * 2 : num.to_i
     end
-
-    @number = @number.join('').split(//)
-    @number.map!(&:to_i)
-    @number.inject { |sum, i| sum + i } % 10 == 0 ? true : false
   end
+
+  def split_greater_than_ten
+    @number = @number.join('').split(//).map(&:to_i)
+  end
+
+  def sum_numbers
+    @number = @number.inject(:+)
+  end
+
+  def check_if_mod_ten
+    @number % 10 == 0
+  end
+
 end
+
+card = CreditCard.new(4408041234567901)
+p card.check_card
 
 card = CreditCard.new(4408041234567901)
 p card.check_card
